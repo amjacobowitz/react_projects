@@ -65,8 +65,8 @@ var Scoreboard = React.createClass({
 			<table>
 				<tbody>
 					<tr>
-						<th>Player Score</th>
-						<th>Computer Score</th>
+						<th>Player Cards</th>
+						<th>Computer Cards</th>
 					</tr>
 					<tr>{this.props.resultMessage}</tr>
 					<tr>
