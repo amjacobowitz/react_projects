@@ -1,0 +1,29 @@
+.card{
+	width: 150px;
+	height: 210px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.card-winner{
+	width: 150px;
+	height: 210px;
+	border: 5px solid green;
+	border-radius: 5px;
+}
+
+.card-back{
+	width: 150px;
+	height: 210px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.war-cards-enter{
+	opacity: 0.01;
+}
+
+.war-cards-enter.war-cards-enter-active{
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
